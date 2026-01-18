@@ -1,0 +1,46 @@
+# =========================
+# CDP - Show Commands
+# =========================
+
+# Show general CDP information (timers, version)
+show cdp
+
+# Show number of CDP messages sent and received
+show cdp traffic
+
+# Show interfaces where CDP is enabled
+show cdp interface
+
+# List CDP neighbors with basic information
+show cdp neighbors
+
+# List CDP neighbors with detailed information
+show cdp neighbors detail
+
+# Show detailed CDP info for a specific neighbor
+show cdp entry <neighbor-name>
+
+
+
+# =========================
+# LLDP - Show Commands
+# =========================
+
+# Show general LLDP information (timers, version)
+show lldp
+
+# Show number of LLDP messages sent and received
+show lldp traffic
+
+# Show interfaces where LLDP TX/RX is enabled
+show lldp interface
+
+# List LLDP neighbors with basic information
+show lldp neighbors
+
+# List LLDP neighbors with detailed information
+show lldp neighbors detail
+
+# Show detailed LLDP info for a specific neighbor
+show lldp entry <neighbor-name>
+
