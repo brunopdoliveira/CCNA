@@ -26,6 +26,15 @@ show cdp entry <neighbor-name>
 # LLDP - Show Commands
 # =========================
 
+# Enable LLDP globally
+configure terminal
+lldp run
+
+# By default, TX and RX are disabled on interfaces, even after lldp run.
+interface gigabitEthernet 0/0
+ lldp transmit
+ lldp receive
+
 # Show general LLDP information (timers, version)
 show lldp
 
